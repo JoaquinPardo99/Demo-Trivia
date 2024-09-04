@@ -9,12 +9,9 @@ Este proyecto es una trivia interactiva creada con HTML, CSS y JavaScript. Los j
 - **`script.js`:** Archivo JavaScript que maneja la lógica del juego.
 - **`questions.json`:** Archivo JSON que contiene las preguntas de la trivia.
 
-## Instalación
+## Página Web Local
 
-1. **Clona el repositorio:**
-
-   git clone
-   cd trivia
+https://joaquinpardo99.github.io/Demo-Trivia/
 
 ## Cómo Jugar
 
@@ -27,3 +24,5 @@ Este proyecto es una trivia interactiva creada con HTML, CSS y JavaScript. Los j
 
 - **Desarrollado por:** Joaquin Pardo
 - **Tecnologías utilizadas:** HTML, CSS, JavaScript, Animate.css, Bootstrap, Confetti.js
+
+
