@@ -1,0 +1,57 @@
+[
+  {
+    "question": "¿Cuál es la capital de Francia?",
+    "options": ["Madrid", "París", "Roma", "Berlín"],
+    "answer": "París"
+  },
+  {
+    "question": "¿Cuál es el planeta más grande del sistema solar?",
+    "options": ["Tierra", "Marte", "Júpiter", "Saturno"],
+    "answer": "Júpiter"
+  },
+  {
+    "question": "¿Qué gas es esencial para la respiración?",
+    "options": ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Hidrógeno"],
+    "answer": "Oxígeno"
+  },
+  {
+    "question": "¿Cuál es el elemento químico con el símbolo 'O'?",
+    "options": ["Oro", "Oxígeno", "Osmio", "Oxalato"],
+    "answer": "Oxígeno"
+  },
+  {
+    "question": "¿Quién pintó la Mona Lisa?",
+    "options": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet"
+    ],
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "question": "¿Cuál es el río más largo del mundo?",
+    "options": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+    "answer": "Amazonas"
+  },
+  {
+    "question": "¿Qué país es conocido como la tierra del sol naciente?",
+    "options": ["China", "Australia", "Japón", "India"],
+    "answer": "Japón"
+  },
+  {
+    "question": "¿Qué unidad se utiliza para medir la intensidad de la corriente eléctrica?",
+    "options": ["Voltio", "Amperio", "Ohmio", "Watt"],
+    "answer": "Amperio"
+  },
+  {
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "options": ["Atlántico", "Pacífico", "Índico", "Ártico"],
+    "answer": "Pacífico"
+  },
+  {
+    "question": "¿En qué año llegó el hombre a la Luna?",
+    "options": ["1965", "1969", "1972", "1980"],
+    "answer": "1969"
+  }
+]

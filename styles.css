@@ -1,0 +1,78 @@
+:root {
+  --color-background: #d9dcd6;
+  --color-secondary-bg: #81c3d7;
+  --color-primary: #2f6690;
+  --color-dark: #3a7ca5;
+  --color-darker: #16425b;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--color-background);
+  margin: 0;
+  padding-bottom: 80px;
+}
+
+#trivia-container,
+#welcome-container {
+  background-color: var(--color-secondary-bg) !important;
+  color: var(--color-dark);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#progress-bar {
+  background-color: var(--color-primary) !important;
+}
+
+#question {
+  color: var(--color-dark);
+}
+
+.option {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
+
+.option:hover {
+  background-color: var(--color-darker) !important;
+  transform: scale(1.05);
+}
+
+#timer-container {
+  color: var(--color-dark);
+}
+
+#score-container {
+  color: var(--color-dark);
+}
+
+#restart-button,
+#start-button {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
+
+#restart-button:hover,
+#start-button:hover {
+  background-color: var(--color-darker) !important;
+}
+
+footer {
+  background-color: var(--color-dark);
+  color: var(--color-secondary-bg);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+#trivia-container,
+#welcome-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.container {
+  padding-bottom: 20px;
+}

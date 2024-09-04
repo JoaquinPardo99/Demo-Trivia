@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-light">
+    <div
+      id="welcome-container"
+      class="container p-4 mt-5 bg-white rounded shadow text-center animate__animated"
+    >
+      <h1 class="animate__animated animate__bounceInDown">Trivia Demo</h1>
+      <button
+        id="start-button"
+        class="btn btn-primary mt-3 animate__animated animate__fadeInUp"
+      >
+        Iniciar Trivia
+      </button>
+    </div>
+
+    <div
+      id="trivia-container"
+      class="container p-4 mt-5 bg-white rounded shadow animate__animated animate__fadeIn"
+      style="display: none"
+    >
+      <div class="progress mb-4">
+        <div
+          id="progress-bar"
+          class="progress-bar"
+          role="progressbar"
+          style="width: 0%"
+          aria-valuenow="0"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        ></div>
+      </div>
+
+      <div
+        id="notification"
+        class="alert alert-warning text-center"
+        style="display: none"
+      >
+        ¡Tiempo agotado!
+      </div>
+
+      <div id="question-container">
+        <p id="question" class="h4"></p>
+        <div id="options-container" class="mt-3">
+          <button class="option btn btn-primary btn-block"></button>
+          <button class="option btn btn-primary btn-block"></button>
+          <button class="option btn btn-primary btn-block"></button>
+          <button class="option btn btn-primary btn-block"></button>
+        </div>
+      </div>
+      <div id="timer-container" class="mt-4">
+        <p class="font-weight-bold">
+          Tiempo restante: <span id="timer">10</span> segundos
+        </p>
+      </div>
+      <div id="score-container" style="display: none" class="mt-4">
+        <p id="final-message" class="h4"></p>
+        <p class="h4">Tu puntuación es: <span id="score"></span></p>
+        <div id="summary-container" class="mt-4"></div>
+        <button id="restart-button" class="btn btn-success mt-3">
+          Reiniciar Trivia
+        </button>
+      </div>
+    </div>
+
+    <footer class="text-center mt-5 p-3">
+      <p class="mb-0">Creado por Joaquin Pardo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
